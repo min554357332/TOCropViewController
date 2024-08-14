@@ -161,6 +161,7 @@ typedef NS_ENUM(NSInteger, TOCropViewOverlayEdge) {
     self.scrollView.showsHorizontalScrollIndicator = NO;
     self.scrollView.showsVerticalScrollIndicator = NO;
     self.scrollView.delegate = self;
+    self.scrollView.backgroundColor = [UIColor redColor];
     [self addSubview:self.scrollView];
 
     // Disable smart inset behavior in iOS 11
